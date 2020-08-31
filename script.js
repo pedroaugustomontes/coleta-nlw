@@ -1,3 +1,11 @@
+const pessoa = {
+  idade: 24,
+  solteiro: true,
+  altura: "1,86"
+}
+
+
+
 // let produtos = [
 //   { nome: "Notebook", valor: 2500 },
 //   { nome: "Monitor", valor: 900 },
@@ -21,17 +29,17 @@
 
 // console.log(quantidadeTanque);
 
-let jogos = [
-  { nome: "Call of Duty", classificacao: 18 },
-  { nome: "Resident Evil 6", classificacao: 16 },
-  { nome: "Super Bomberman R", classificacao: 7 },
-  { nome: "Bomberman", classificacao: 7 },
-];
+// let jogos = [
+//   { nome: "Call of Duty", classificacao: 18 },
+//   { nome: "Resident Evil 6", classificacao: 16 },
+//   { nome: "Super Bomberman R", classificacao: 7 },
+//   { nome: "Bomberman", classificacao: 7 },
+// ];
 
-let idade = 15;
+// let idade = 15;
 
-for (let i = 0; i < jogos.length; i++) {
-  if (idade >= jogos.classificacao) {
-    console.log(jogos.nome.value);
-  }
-}
+// for (let i = 0; i < jogos.length; i++) {
+//   if (idade >= jogos.classificacao) {
+//     console.log(jogos.nome.value);
+//   }
+// }
